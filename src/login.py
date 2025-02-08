@@ -1,4 +1,5 @@
 import getpass
+import time
 import sys
 sys.path.append('.\\')# 设置sys.path
 sys.path.append(r'.\site-packages')
@@ -15,6 +16,7 @@ def login(tab):
         # 获取用户名和密码
         username = input('请输入你的mfuns账号：')
         password = getpass.getpass("请输入你的密码(密码已隐藏~)：")
+        # password = input("请输入你的密码(密码未隐藏~)：")
         # # 最后要记得换成getpass
 
         # 点击“登录”按钮
@@ -35,5 +37,7 @@ def login(tab):
         tab.ele('.__button-1cvdmx0-ilmmp n-button n-button--primary-type n-button--medium-type n-button--block').click()
             # 通过其value属性作为查找条件。@表示按属性名查找
         mfprint('登陆成功了喵！')
+        time.sleep(1)
+        tab.refresh()
 
 # 注意：这里没有切换模式 若要使用s模式请用tab.change_mode()
