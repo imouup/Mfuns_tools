@@ -8,7 +8,7 @@
 # ✔️功能列表
 
 * [网盘外链转直链工具](plugins/pan_transfer/README.md)
-* 签到工具 (半成品……)
+* [自动签到工具](https://github.com/imouup/Mfsign)
 
 
 
