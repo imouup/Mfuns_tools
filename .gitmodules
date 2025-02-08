@@ -1,0 +1,3 @@
+[submodule "plugins/water/mfsign"]
+	path = plugins/water/mfsign
+	url = https://github.com/imouup/Mfsign.git

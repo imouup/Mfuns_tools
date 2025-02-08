@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2530f4e7-a1fe-46ca-b773-7627c04adad9" name="更改" comment="添加一键自动签到脚本">
+    <list default="true" id="2530f4e7-a1fe-46ca-b773-7627c04adad9" name="更改" comment="修改.gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/water/sign_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/water/sign_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cookies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,56 +49,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Mftools.executor": "Run",
-    "Python.cookies.executor": "Run",
-    "Python.createTab.executor": "Run",
-    "Python.download.executor": "Run",
-    "Python.downloader.executor": "Run",
-    "Python.file_store.executor": "Run",
-    "Python.login.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mf_print.executor": "Run",
-    "Python.mftest.executor": "Run",
-    "Python.mftools.executor": "Run",
-    "Python.pan_transfer.executor": "Run",
-    "Python.scratch.executor": "Run",
-    "Python.scratch_1.executor": "Run",
-    "Python.scratch_2.executor": "Run",
-    "Python.scratch_4.executor": "Run",
-    "Python.scratch_5.executor": "Run",
-    "Python.scratch_6.executor": "Run",
-    "Python.scratch_7.executor": "Run",
-    "Python.scratch_8.executor": "Run",
-    "Python.sign_server.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.uploader.executor": "Run",
-    "Python.water.executor": "Run",
-    "Python.切换模式.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "database.data.extractors.current.export.id": "JSON-Groovy.json.groovy",
-    "database.data.extractors.current.id": "JSON-Groovy.json.groovy",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "G:/Project/Mfuns_tools/plugins/water",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "two.files.diff.last.used.file": "G:/Project/Mfuns_tools/src/createTab.py",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Mftools.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cookies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.createTab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.download.executor&quot;: &quot;Run&quot;,
+    &quot;Python.downloader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file_store.executor&quot;: &quot;Run&quot;,
+    &quot;Python.login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mf_print.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mftools.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pan_transfer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sign_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.uploader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.water.executor&quot;: &quot;Run&quot;,
+    &quot;Python.切换模式.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;JSON-Groovy.json.groovy&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;JSON-Groovy.json.groovy&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Project/Mfuns_tools/plugins/water&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;G:/Project/Mfuns_tools/src/createTab.py&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
-      "Python",
-      "JSON"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;Python&quot;,
+      &quot;JSON&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;sys.path.append(r'.\src')&#10;sys.path.append(r'.\site-packages')&#10;sys.path.append(r'.\plugins\pan_transfer')" module-name="Mfuns_tools" is-module-sdk="true">
@@ -166,7 +164,8 @@
       <workItem from="1737522192648" duration="1779000" />
       <workItem from="1737947378105" duration="216000" />
       <workItem from="1738928041165" duration="3741000" />
-      <workItem from="1738977228757" duration="9481000" />
+      <workItem from="1738977228757" duration="10180000" />
+      <workItem from="1738996880236" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交喵！">
       <option name="closed" value="true" />
@@ -512,7 +511,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738985428935</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="添加鉴权码获取函数">
+      <option name="closed" value="true" />
+      <created>1738986895343</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1738986895343</updated>
+    </task>
+    <task id="LOCAL-00045" summary="修改.gitignore">
+      <option name="closed" value="true" />
+      <created>1738987058111</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1738987058111</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,8 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重写pan_transfer.py中的getMultiP函数" />
-    <MESSAGE value="撤回对getMultiP函数的修改" />
     <MESSAGE value="清除敏感信息，重写commit" />
     <MESSAGE value="增加log记录函数" />
     <MESSAGE value="修改log记录函数" />
@@ -555,7 +568,9 @@
     <MESSAGE value="关闭密码管理器" />
     <MESSAGE value="改用request库" />
     <MESSAGE value="添加一键自动签到脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加一键自动签到脚本" />
+    <MESSAGE value="添加鉴权码获取函数" />
+    <MESSAGE value="修改.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改.gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
