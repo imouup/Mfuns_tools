@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2530f4e7-a1fe-46ca-b773-7627c04adad9" name="更改" comment="修改.gitignore">
+      <change afterPath="$PROJECT_DIR$/plugins/water/mfsign/.github/workflows/auto_sign.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/water/mfsign" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/water/mfsign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/water/mfsign/sign_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/water/mfsign/sign_action.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +31,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/plugins/water/mfsign" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -113,6 +118,7 @@
       <recent name="G:\Project\Mfuns_tools\plugins\water" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Project\Mfuns_tools\plugins\water\mfsign" />
       <recent name="D:\Project\Mfuns_tools\plugins" />
       <recent name="D:\Project\Mfuns_tools\src" />
       <recent name="D:\Project\Mfuns_tools\test" />
@@ -166,6 +172,7 @@
       <workItem from="1738928041165" duration="3741000" />
       <workItem from="1738977228757" duration="10180000" />
       <workItem from="1738996880236" duration="9000" />
+      <workItem from="1739000030244" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交喵！">
       <option name="closed" value="true" />
