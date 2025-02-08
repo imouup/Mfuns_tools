@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2530f4e7-a1fe-46ca-b773-7627c04adad9" name="更改" comment="修改.gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/water/mfsign" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/water/mfsign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/water/mfsign/sign_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/water/mfsign/sign_action.py" afterDir="false" />
-    </list>
+    <list default="true" id="2530f4e7-a1fe-46ca-b773-7627c04adad9" name="更改" comment="修改.gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,56 +47,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Mftools.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cookies.executor&quot;: &quot;Run&quot;,
-    &quot;Python.createTab.executor&quot;: &quot;Run&quot;,
-    &quot;Python.download.executor&quot;: &quot;Run&quot;,
-    &quot;Python.downloader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file_store.executor&quot;: &quot;Run&quot;,
-    &quot;Python.login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mf_print.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mftools.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pan_transfer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sign_server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.uploader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.water.executor&quot;: &quot;Run&quot;,
-    &quot;Python.切换模式.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;JSON-Groovy.json.groovy&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;JSON-Groovy.json.groovy&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Project/Mfuns_tools/plugins/water&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;G:/Project/Mfuns_tools/src/createTab.py&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Mftools.executor": "Run",
+    "Python.cookies.executor": "Run",
+    "Python.createTab.executor": "Run",
+    "Python.download.executor": "Run",
+    "Python.downloader.executor": "Run",
+    "Python.file_store.executor": "Run",
+    "Python.login.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mf_print.executor": "Run",
+    "Python.mftest.executor": "Run",
+    "Python.mftools.executor": "Run",
+    "Python.pan_transfer.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "Python.scratch_1.executor": "Run",
+    "Python.scratch_2.executor": "Run",
+    "Python.scratch_4.executor": "Run",
+    "Python.scratch_5.executor": "Run",
+    "Python.scratch_6.executor": "Run",
+    "Python.scratch_7.executor": "Run",
+    "Python.scratch_8.executor": "Run",
+    "Python.sign_action.executor": "Run",
+    "Python.sign_server.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.uploader.executor": "Run",
+    "Python.water.executor": "Run",
+    "Python.切换模式.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "database.data.extractors.current.export.id": "JSON-Groovy.json.groovy",
+    "database.data.extractors.current.id": "JSON-Groovy.json.groovy",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "G:/Project/Mfuns_tools/plugins/water",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "two.files.diff.last.used.file": "G:/Project/Mfuns_tools/src/createTab.py",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
-      &quot;Python&quot;,
-      &quot;JSON&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
+      "Python",
+      "JSON"
     ]
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;sys.path.append(r'.\src')&#10;sys.path.append(r'.\site-packages')&#10;sys.path.append(r'.\plugins\pan_transfer')" module-name="Mfuns_tools" is-module-sdk="true">
@@ -169,7 +166,7 @@
       <workItem from="1738928041165" duration="3741000" />
       <workItem from="1738977228757" duration="10180000" />
       <workItem from="1738996880236" duration="9000" />
-      <workItem from="1739000030244" duration="1269000" />
+      <workItem from="1739000030244" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交喵！">
       <option name="closed" value="true" />
@@ -608,9 +605,10 @@
     <SUITE FILE_PATH="coverage/Mfuns_tools$scratch_6.coverage" NAME="scratch_6 覆盖结果" MODIFIED="1737357746999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/login_py$mftools.coverage" NAME="mftools 覆盖结果" MODIFIED="1737445305555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/login_py$uploader.coverage" NAME="uploader 覆盖结果" MODIFIED="1737429791418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/pan_transfer" />
-    <SUITE FILE_PATH="coverage/Mfuns_tools$downloader.coverage" NAME="downloader 覆盖结果" MODIFIED="1737365069688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/pan_transfer" />
     <SUITE FILE_PATH="coverage/mftools_py$water.coverage" NAME="water 覆盖结果" MODIFIED="1738980630193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/water" />
+    <SUITE FILE_PATH="coverage/Mfuns_tools$downloader.coverage" NAME="downloader 覆盖结果" MODIFIED="1737365069688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/pan_transfer" />
     <SUITE FILE_PATH="coverage/mftools_py$login.coverage" NAME="login 覆盖结果" MODIFIED="1738977530134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/sign_server_py$sign_server.coverage" NAME="sign_server 覆盖结果" MODIFIED="1739001862901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/water" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$login.coverage" NAME="login 覆盖结果" MODIFIED="1736173514948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$mf_print.coverage" NAME="mf_print 覆盖结果" MODIFIED="1736252321083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$download.coverage" NAME="download 覆盖结果" MODIFIED="1735995659817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -621,6 +619,7 @@
     <SUITE FILE_PATH="coverage/Mfuns_tools$scratch.coverage" NAME="scratch 覆盖结果" MODIFIED="1736741846315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$pan_transfer.coverage" NAME="pan_transfer 覆盖结果" MODIFIED="1737382381116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/pan_transfer" />
     <SUITE FILE_PATH="coverage/mftools_py$Mftools.coverage" NAME="Mftools 覆盖结果" MODIFIED="1738929791459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../package/Mftools_v0.1.3" />
+    <SUITE FILE_PATH="coverage/sign_server_py$sign_action.coverage" NAME="sign_action 覆盖结果" MODIFIED="1739001714822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/water/mfsign" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$.coverage" NAME="切换模式 覆盖结果" MODIFIED="1735996488086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/login_py$downloader.coverage" NAME="downloader 覆盖结果" MODIFIED="1737445607164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/pan_transfer" />
     <SUITE FILE_PATH="coverage/mftools_py$pan_transfer.coverage" NAME="pan_transfer 覆盖结果" MODIFIED="1737518312677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/pan_transfer" />
