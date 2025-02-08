@@ -4,19 +4,39 @@ import hashlib
 import hmac
 import json
 import time
-
 import requests
-from nbclient.client import timestamp
 
-# 加载配置
-with open("config.json") as f:
-    config = json.load(f)
-AccessToken = config['AccessToken']
-feishu_bot_secret = config['feishu_bot_secret']
-feishu_webhook = config['feishu_webhook']
 
-# 获取 AccessToken
 
+# 定义函数获取 AccessToken
+def getAccessToken2(account,password):
+    headers = {
+        'Accept': 'application/json',
+        'Accept-Encoding': 'gzip, deflate, br, zstd',
+        'Authorization': None,
+        'Content-Type': 'application/json',
+        'Origin': 'https://www.mfuns.net',
+        'Referer': 'https://www.mfuns.net/',
+        'Priority': 'u=1,i',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
+
+    json_data = {
+        'account': account,
+        'password': password,
+    }
+
+    response = requests.post('https://api.mfuns.net/v1/auth/login', headers=headers, json=json_data)
+
+    # 提取json
+    content = response.content
+    decoded = content.decode('utf-8', errors='ignore')
+    start = decoded.find('{')
+    end = decoded.rfind('}')
+    json_res = decoded[start:end + 1]
+    dict = json.loads(json_res)
+    access_token = dict['data']['access_token']
+    return access_token
 
 def signin():
     header = {
@@ -74,6 +94,15 @@ def feishu_notice(msg,bot_secret,webhook):
     }
     response = requests.post(url=webhook, json=json_data, headers=header)
 
+# 主代码
+# 加载配置
+with open("config.json") as f:
+    config = json.load(f)
+account = config['account']
+password = config['password']
+feishu_bot_secret = config['feishu_bot_secret']
+feishu_webhook = config['feishu_webhook']
+AccessToken = getAccessToken2(account,password)
 
 #签到
 response = signin()

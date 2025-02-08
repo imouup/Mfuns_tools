@@ -1,5 +1,7 @@
+import base64
 from urllib.parse import unquote
 import json
+import requests
 
 def getCookies(tab,path):
     '''
@@ -37,7 +39,7 @@ def getUserinfo(tab,path):
                 json.dump(json_value,userinfo,ensure_ascii=False,indent=4)
             return json_value
 
-
+# 通过页面获取AccessToken(旧)
 def getAccessToken(tab):
     cookie = list(tab.cookies())
     for item in cookie:
@@ -46,4 +48,23 @@ def getAccessToken(tab):
     access_token = access_token.strip('\"')
     return access_token
 
+# 通过登录的方式获取
+def getAccessToken2(account,password):
+    headers = {
+        'Accept': 'application/json',
+        'Accept-Encoding': 'gzip, deflate, br, zstd',
+        'Authorization': None,
+        'Content-Type': 'application/json',
+        'Origin': 'https://www.mfuns.net',
+        'Referer': 'https://www.mfuns.net/',
+        'Priority': 'u=1,i',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    }
 
+    json_data = {
+        'account': account,
+        'password': password,
+    }
+
+    response = requests.post('https://api.mfuns.net/v1/auth/login', headers=headers, json=json_data)
+    print(response.json())
