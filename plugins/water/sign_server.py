@@ -83,7 +83,7 @@ def feishu_notice(msg,bot_secret,webhook):
                         'text': f'{msg}\n'
                     },{
                         'tag': 'text',
-                        'text': f'时间：{now.strftime('%Y-%m-%d %H:%M:%S')}'
+                        'text': f'时间：{now.strftime("%Y-%m-%d %H:%M:%S")}'
                     }]
                     ]
             }
