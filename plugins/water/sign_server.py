@@ -7,7 +7,6 @@ import time
 import requests
 
 
-
 # 定义函数获取 AccessToken
 def getAccessToken2(account,password):
     headers = {

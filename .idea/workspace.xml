@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2530f4e7-a1fe-46ca-b773-7627c04adad9" name="更改" comment="改用request库">
-      <change afterPath="$PROJECT_DIR$/plugins/water/sign_server.py" afterDir="false" />
+    <list default="true" id="2530f4e7-a1fe-46ca-b773-7627c04adad9" name="更改" comment="添加一键自动签到脚本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/water/sign_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/water/sign_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cookies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,7 @@
     "Python.scratch_5.executor": "Run",
     "Python.scratch_6.executor": "Run",
     "Python.scratch_7.executor": "Run",
+    "Python.scratch_8.executor": "Run",
     "Python.sign_server.executor": "Run",
     "Python.test.executor": "Run",
     "Python.uploader.executor": "Run",
@@ -164,7 +166,7 @@
       <workItem from="1737522192648" duration="1779000" />
       <workItem from="1737947378105" duration="216000" />
       <workItem from="1738928041165" duration="3741000" />
-      <workItem from="1738977228757" duration="8015000" />
+      <workItem from="1738977228757" duration="9481000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交喵！">
       <option name="closed" value="true" />
@@ -502,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738980722665</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="添加一键自动签到脚本">
+      <option name="closed" value="true" />
+      <created>1738985428935</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1738985428935</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="为登录模块添加重试机制" />
     <MESSAGE value="重写pan_transfer.py中的getMultiP函数" />
     <MESSAGE value="撤回对getMultiP函数的修改" />
     <MESSAGE value="清除敏感信息，重写commit" />
@@ -545,7 +554,8 @@
     <MESSAGE value="修改注释位置（原来位置的注释在打包后似乎会导致模块导入失败）" />
     <MESSAGE value="关闭密码管理器" />
     <MESSAGE value="改用request库" />
-    <option name="LAST_COMMIT_MESSAGE" value="改用request库" />
+    <MESSAGE value="添加一键自动签到脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一键自动签到脚本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,6 +609,7 @@
     <SUITE FILE_PATH="coverage/mftools_py$createTab.coverage" NAME="createTab 覆盖结果" MODIFIED="1737518341442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$scratch_1.coverage" NAME="scratch_1 覆盖结果" MODIFIED="1736934857218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/login_py$pan_transfer.coverage" NAME="pan_transfer 覆盖结果" MODIFIED="1737445279589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/pan_transfer" />
+    <SUITE FILE_PATH="coverage/mftools_py$scratch_8.coverage" NAME="scratch_8 覆盖结果" MODIFIED="1738986688624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$scratch_5.coverage" NAME="scratch_5 覆盖结果" MODIFIED="1736935398047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$cookies.coverage" NAME="cookies 覆盖结果" MODIFIED="1736220713355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$main.coverage" NAME="main 覆盖结果" MODIFIED="1735999550308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/pan_transfer" />
@@ -606,7 +617,7 @@
     <SUITE FILE_PATH="coverage/Mfuns_tools$file_store.coverage" NAME="file_store 覆盖结果" MODIFIED="1736260529086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$test.coverage" NAME="test 覆盖结果" MODIFIED="1735994126984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$scratch_4.coverage" NAME="scratch_4 覆盖结果" MODIFIED="1736924616126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/mftools_py$sign_server.coverage" NAME="sign_server 覆盖结果" MODIFIED="1738985323908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/water" />
+    <SUITE FILE_PATH="coverage/mftools_py$sign_server.coverage" NAME="sign_server 覆盖结果" MODIFIED="1738986832758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/plugins/water" />
     <SUITE FILE_PATH="coverage/Mfuns_tools$scratch_7.coverage" NAME="scratch_7 覆盖结果" MODIFIED="1737378543699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>
